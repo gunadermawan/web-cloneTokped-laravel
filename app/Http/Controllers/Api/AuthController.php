@@ -67,7 +67,7 @@ class AuthController extends Controller
     {
         return response()->json([
             'code' => 400,
-            'msg' => $msg
+            'message' => $msg
         ], 400);
     }
 }
